@@ -93,6 +93,9 @@ int main() {
                 Conteudos[tag]["maximo"] -= 5;
             }
         }
+        // Ironia ou Não
+        // Não Existe Função Para Pular
+        // Dar Sensação de Escolha Faz Parte da Estratégia
         else if (userResp == 0) {
             for (std::string tags : ConteudosList) {
                 // Método Para Ver Suas Tags Favoritas
@@ -113,6 +116,8 @@ int main() {
                 ConteudosList.erase(std::remove(ConteudosList.begin(), ConteudosList.end(), tags), ConteudosList.end());
             }
         }
+        // Resetar Resultado;
+        maxResultado = 0;
     }
     return 0;
 }
